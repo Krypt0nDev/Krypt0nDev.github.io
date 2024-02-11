@@ -1,0 +1,40 @@
+﻿body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #fffcf9;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-family: 'Pacifico', cursive;
+    font-size: 2.5rem;
+    color: #ff69b4;
+    margin-bottom: 20px;
+}
+
+#love-message {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+button {
+    background-color: #ff69b4;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+    button:hover {
+        background-color: #d64191;
+    }
