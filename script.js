@@ -47,7 +47,7 @@
       const randomType = Math.random() < 0.5 ? 'cheddar' : 'heart';
       createItem(randomType);
     }
-  }, 1500);
+  }, 1000);
 
   document.addEventListener('mousemove', moveGirl);
 
