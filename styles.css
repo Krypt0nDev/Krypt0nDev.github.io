@@ -1,0 +1,60 @@
+﻿body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: url('https://thefoodblog.co.il/wp-content/uploads/2015/12/IMG_2510.jpg') center/cover;
+}
+
+#game-container {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
+
+#girl {
+    position: absolute;
+    width: 80px;
+    height: 120px;
+    background-image: url('girl.png'); /* Replace 'path_to_your_png_file.png' with the path to your PNG image */
+    background-size: cover;
+}
+
+.item {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+}
+
+#cheddar {
+    background-image: url('https://www.goudacheeseshop.com/pub/media/catalog/product/cache/e49b825e2097b82b7746eb40be207ecb/r/e/red-cheddar-english_2.jpg');
+    background-size: cover;
+}
+
+#heart {
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Heart_coraz%C3%B3n.svg/1200px-Heart_coraz%C3%B3n.svg.png');
+    background-size: cover;
+}
+
+#score {
+    position: fixed;
+    top: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 50px;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+#message {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 80px;
+    color: white;
+    text-shadow: 4px 4px 6px rgba(0, 0, 0, 0.5);
+    display: none;
+    background-color: rgba(0, 255, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+}
