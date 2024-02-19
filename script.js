@@ -23,12 +23,12 @@
     }
 
     item.addEventListener('mousedown', () => {
-      if (score < 10) {
+      if (score < 20) {
         score++;
         scoreValue.textContent = score;
         item.remove();
       }
-      if (score === 10) {
+      if (score === 20) {
         endGame();
       }
     });
@@ -43,11 +43,11 @@
   }
 
   setInterval(() => {
-    if (score < 10) {
+    if (score < 20) {
       const randomType = Math.random() < 0.5 ? 'cheddar' : 'heart';
       createItem(randomType);
     }
-  }, 3000);
+  }, 1500);
 
   document.addEventListener('mousemove', moveGirl);
 
